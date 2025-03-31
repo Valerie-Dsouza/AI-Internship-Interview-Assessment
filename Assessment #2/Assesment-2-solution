@@ -1,0 +1,53 @@
+Scenario based assessment- Valerie Dsouza
+
+Logical components and steps
+Doctor Schedules and availability
+Doctors usually have schedules where they visit multiple locations in a day to tend to their patients these locations could be different hospitals, their own practices etc. In cases like a scheduled surgery, A doctor would be required to dedicate more time to a particular establishment often making them unavailable to tend to another. Patient flow could be greatly affected by a doctor’s availability. Each Doctor works varied shift but each tend to at least 30-50 patients in a 3-hour time frame. To streamline the process of tending to patients in terms of a doctor’s schedule, factors to be considered are:
+•	Delays in a doctor’s arrival time due to traffic congestion or other factors.
+•	Check-out time from the previous location in order to estimate their arrival.
+•	Doctors informing the management at the expected location of arrival status or unavailability in due time in order to prevent patients from waiting unnecessarily.
+•	Updating unavailability status in advance and confirming with management at other locations in cases of scheduled surgeries at a particular location.
+
+Patient arrival and appointment delay
+Like Doctors patients’ arrival time could also be influenced by multiple factors. Appointments can be scheduled based on time slot availability. However, this could variate based on emergency situations where patients with more concerning health risks are given higher priority even though they did not have a scheduled appointment. To streamline doctors tending to patients, patient status could be tracked in this way:
+•	Check-in time: As soon as a Patient who’s made an appointment or a walk-in arrives at a location the management can check-in their arrival time
+•	Waiting time: Depending on how much time a person has spent waiting in a queue they can be assigned slots to visit the doctor with higher priority given to those at risk and with appointments and walk-ins scheduled for when there seems to be a delay in arrival time in patients with appointments
+•	Check-out time: Once a patient has completed their visit and has checked out the management can update the queue status to get a better idea of how many people are yet to complete their visit.
+•	Late arrival: If a patient shows up more than half an hour later than their scheduled time, they are treated as walk-ins and their priority is re-adjusted. 
+•	Missed appointments: In cases where a patient never shows up or when they inform the management that the available time-slots are inconvenient for them, they can be rescheduled as per their availability.
+
+Multi-channel appointment sources
+The means of scheduling appointments differs by age group with patients belonging to the older generation preferring using the interactive voice response or calling to schedule their appointments and younger generation preferring to use the application or whatsapp. They can be centralised in the following manner:
+•	Appointments taken via the application can be directly inputted into a database based on available timeslots.
+•	Appointments taken via IVR, whatsapp or other means can be manually inputted into the database by the management of the establishment.
+•	As appointments via the app are already directly inputted, they can be used as reference by management to schedule appointments excluding those timings and also to avoid double booking.
+
+Queue optimization and priority
+To optimise the queue based on priority the following can be done:
+•	Patients in need of immediate medical attention should be given highest priority regardless of them being walk-ins as their condition could be life threatening if not tended to on time.
+•	Patients with scheduled appointments should be given higher priority than walk-ins.
+•	In cases where a scheduled patient arrives later than their appointment the next scheduled patient will get priority or if they too haven’t arrived yet a walk-in could be added next in queue.
+•	Depending on how much longer till the doctor has to leave, walk-ins arriving at a later time may be asked to re-schedule an appointment to a different day.
+•	Sometimes a doctor could prioritize appointments over walk-ins with the exception of emergencies, that should be taken into consideration as well.
+•	In cases of walk-ins if the patient has no doctor preference, they could be assigned to another available doctor with shorter waiting queue.
+•	Management can confirm with their patients on their scheduled consultations ahead of doctor arrival time, if they are unavailable the empty slot can be assigned to a walk-in.
+
+Required information for intelligent queuing
+•	Doctor’s live schedule and consultation duration: Delay in doctor’s arrival time should be communicated effectively along with the check out time from the last establishment. Consultation time depends on whether it is a first time visit or follow-up so the nature of the appointment could be specified as well. 
+•	Real time check-in and arrival patterns: a particular patients arrival time can be studied and used as reference for future appointments to estimate whether they will arrive on time or later and queue can be re-adjusted according to this pattern.
+•	Historical appointment data to predict peak loads:  patterns like from previous data like weekdays and weekends can be analysed to estimate queue length during specific timings.
+•	Channel-wise booking trends: After appointment confirmation the management can confirm with the patients on their arrival by calling them ahead of doctor arrival time.
+•	Doctor specific queue management: Depending on whether doctor tends to walk-ins in between appointments or whether they choose to only attend to appointments first.
+
+Measuring System Effectiveness
+•	Average Wait Time Reduction: Compare before vs. after implementation.
+•	Queue Efficiency Score: Patients served per doctor per time block.
+•	Patient Satisfaction Metrics: Collect feedback via app/SMS.
+•	No-show & Walk-in Handling: Track how well system accommodates unexpected arrivals.
+
+Patient Communication Strategy
+•	Real-time ETA Updates: SMS/App notifications for estimated wait time.
+•	Rescheduling Option: If wait time exceeds 90 minutes, suggest visiting other available doctors at the establishment or rescheduling.
+•	Check-in Confirmation: Automated message when the doctor is ready.
+
+
